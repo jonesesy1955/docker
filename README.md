@@ -35,7 +35,7 @@ volumes:
 ## Deploying multiple containers using docker compose
 I had the biggest issue here with the code. I keep getting an error message with container stack only half deployed. The issue is the password.txt file is not being read by properly by Docker. Trying to use AI to troubleshoot, but no luck. I will move past and revisit
 
-# Deploying container to aws 
+## Deploying container to aws 
 
 1. Logged into ECR via docker terminal: `aws ecr get-login-password --region <region>| docker login --username AWS --password-stdin <awsaccountname>.dkr.ecr.<region>.amazonaws.com`
 
