@@ -2,15 +2,15 @@
 This repository is for my Docker notes and projects
 
 # Notes
-docker files > series of commands, copy, install, running main process (starting point)
+Docker files > series of commands, copy, install, running main process (starting point)
 
-docker image > code, runtime, libraries, env. variables, config files (executable package); inherit from a base image containing pre-installed dependencies that you can build on
+Docker image > code, runtime, libraries, env. variables, config files (executable package); inherit from a base image containing pre-installed dependencies that you can build on
 - publicly available images available 
 
-containers > runnable instance of an image
+Containers > runnable instance of an image
 - deploy on your local machine or cloud provider
 
-container orchestration system > docker swamp, k8s, ECS; if you need containers to run constantly 
+Container orchestration system > docker swamp, k8s, ECS; if you need containers to run constantly 
 
 # Project_1: Following the YouTube video giving a docker tutorial (https://www.youtube.com/watch?v=1_AlV-FFxM8&t=579s)
 Confirmed at docker was installed correctly: `docker --version`
@@ -23,7 +23,7 @@ I was able to get the container created, but the application is not running. I a
 
 Running the container: `docker run -p 127.0.0.1:8080:8080 first-time`
 
-volumes: 
+Volumes: 
 
 ## Mapping a folder from my local machine to the container
  `docker run -v C:\Users:/container_folder first-time`
