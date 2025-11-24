@@ -12,16 +12,16 @@ containers > runnable instance of an image
 
 container orchestration system > docker swamp, k8s, ECS; if you need containers to run constantly 
 
-# Project_1: following the YouTube video giving a docker tutorial (https://www.youtube.com/watch?v=1_AlV-FFxM8&t=579s)
-confirmed at docker was installed correctly: `docker --version`
+# Project_1: Following the YouTube video giving a docker tutorial (https://www.youtube.com/watch?v=1_AlV-FFxM8&t=579s)
+Confirmed at docker was installed correctly: `docker --version`
 
-initiated docker to build the dependencies necessary to build a container: `docker init`
+Initiated docker to build the dependencies necessary to build a container: `docker init`
 
-building the container:`docker build -t first-time .`
+Building the container:`docker build -t first-time .`
 
 I was able to get the container created, but the application is not running. I am attempting to troubleshoot using AI (gemini). Successfully able to run the container and verify the app was running. Screenshots. 
 
-running the container: `docker run -p 127.0.0.1:8080:8080 first-time`
+Running the container: `docker run -p 127.0.0.1:8080:8080 first-time`
 
 volumes: 
 
