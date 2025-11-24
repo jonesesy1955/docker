@@ -1,5 +1,5 @@
 # Docker
-docker notes and projects
+This repository is for my Docker notes and projects
 
 # Notes
 docker files > series of commands, copy, install, running main process (starting point)
