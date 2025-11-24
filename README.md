@@ -1,7 +1,7 @@
-# docker
+# Docker
 docker notes and projects
 
-# notes
+# Notes
 docker files > series of commands, copy, install, running main process (starting point)
 
 docker image > code, runtime, libraries, env. variables, config files (executable package); inherit from a base image containing pre-installed dependencies that you can build on
