@@ -27,7 +27,7 @@ Initiated docker to build the dependencies necessary to build a container: `dock
 
 Building the container:`docker build -t first-time .`
 
-**Issue** - I was able to get the container created, but the application is not running. I am attempting to troubleshoot using AI (gemini). Successfully able to run the container and verify the app was running. Screenshots. 
+**Issue**: I was able to get the container created, but the application is not running. I am attempting to troubleshoot using AI (gemini). Successfully able to run the container and verify the app was running. Screenshots. 
 
 Running the container: `docker run -p 127.0.0.1:8080:8080 first-time`
 
